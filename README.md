@@ -322,4 +322,4 @@ student (ref), course (ref), rating (1-5), comment
 
 ---
 
-*Built with ❤️ using MERN Stack | SmartLearn LMS © 2024*
+*Built with ❤️ using MERN Stack | SmartLearn LMS © 2026*
