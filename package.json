@@ -1,0 +1,16 @@
+{
+  "name": "smartlearn-lms",
+  "version": "1.0.0",
+  "description": "SmartLearn LMS - Full Stack MERN College Project",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
